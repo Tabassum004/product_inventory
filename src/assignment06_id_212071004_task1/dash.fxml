@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="283.0" prefWidth="422.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment06_id_212071004_task1.DashController">
+   <children>
+      <TextField fx:id="passWord" accessibleRole="PASSWORD_FIELD" layoutX="136.0" layoutY="129.0" promptText="password" />
+      <Button fx:id="btnlogin" layoutX="183.0" layoutY="178.0" mnemonicParsing="false" onAction="#btnlogin" prefHeight="26.0" prefWidth="56.0" text="Login" />
+      <TextField fx:id="username" layoutX="136.0" layoutY="86.0" promptText="username" />
+   </children>
+</AnchorPane>
